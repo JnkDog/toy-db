@@ -20,8 +20,9 @@ void read_input(InputBuffer* input_buffer) {
     assert(char_read_num > 0);
 
     input_buffer->input_length = char_read_num - 1;
-    printf("The input length is %u and the buffer length is %u \n",
-        input_buffer->input_length, input_buffer->buffer_length);
+    // printf("The input length is %u and the buffer length is %u \n",
+    //     input_buffer->input_length, input_buffer->buffer_length);
+    
     input_buffer->buffer[char_read_num - 1] = 0;    
 }
 
