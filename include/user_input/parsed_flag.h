@@ -7,7 +7,9 @@ typedef enum {
 } MetaCommandResult;
 
 typedef enum {
-    REPARE_SUCCESS, PREPARE_UNRECOGNIZED_STATEMENT
+    REPARE_SUCCESS, 
+    PREPARE_UNRECOGNIZED_STATEMENT,
+    PREPARE_SYNTAX_ERROR
 } PrepareResult;
 
 #endif

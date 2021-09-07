@@ -14,6 +14,11 @@ typedef struct {
     void* pages[TABLE_MAX_PAGES];
 } Table;
 
+void* row_slot(Table* table, uint32_t row_num);
+
+Table* new_table();
+
+void free_table(Table* table);
 
 #endif
 

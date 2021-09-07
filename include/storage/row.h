@@ -13,4 +13,7 @@ typedef struct {
     char email[COLUMN_EMAIL_SIZE];
 } Row;
 
+void print_row(Row* row);
+
+
 #endif

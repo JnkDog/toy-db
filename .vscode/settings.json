@@ -10,7 +10,8 @@
         "parsed_flag.h": "c",
         "page.h": "c",
         "row.h": "c",
-        "stdint.h": "c"
+        "stdint.h": "c",
+        "string.h": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
