@@ -11,7 +11,9 @@
         "page.h": "c",
         "row.h": "c",
         "stdint.h": "c",
-        "string.h": "c"
+        "string.h": "c",
+        "atomic": "cpp",
+        "bitset": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
